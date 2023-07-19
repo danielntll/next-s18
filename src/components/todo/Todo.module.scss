@@ -1,0 +1,36 @@
+.Todo{
+
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .Name{
+    font-size: 16px;
+  }
+
+  .Buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap:16px;
+
+    .Check{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+  
+    .Remove{
+      color : red;
+    }
+  }
+
+  
+}
